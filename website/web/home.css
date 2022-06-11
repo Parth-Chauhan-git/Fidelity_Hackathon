@@ -1,0 +1,49 @@
+.nav_list{
+    text-align: right;
+    display:inline;
+}
+.logo{
+    width: 25%;
+    height: 15%;
+    background-image: url("fidelity_international_rgb_fc.png");
+    background-size: cover;
+    display:inline;
+}
+
+.navbar{
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+}
+section.top{
+    height: 450px;
+    background-image: url("code-feast.png");
+    background-size: cover;
+
+}
+
+li.nav_el {
+    display:inline;
+    padding: 0.7rem 1rem;
+    color: #313740;
+    font-size: 1.125rem;
+}
+ .toprow{
+    height: 30px;
+    background-color: #20242B;
+ }
+ 
+ body{
+    margin:0;
+ }
+ button.code_feast{
+    background-color: #82C823;
+    color: #20242b;
+    border: 0;
+ }
+ .second{
+    background-color: transparent;
+    border: 0.0625rem solid #dcdee1;
+    color: #101215;
+    padding: 2rem;
+ }
