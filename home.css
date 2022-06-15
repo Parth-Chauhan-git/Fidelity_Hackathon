@@ -40,6 +40,9 @@ section.first{
     margin-left: auto;
     margin-right: auto;
 }
+.nav_el a{text-decoration: none;
+
+}
 li.nav_el {
     display:inline;
     padding: 0.7rem 1rem;
