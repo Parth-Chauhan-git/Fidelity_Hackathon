@@ -1,7 +1,12 @@
+body{
+   font-family: 'Montserrat', sans-serif;
+   font-size: 18px;
+}
 .nav_list{
     text-align: right;
     display:inline;
 }
+
 .logo{
     width: 25%;
     height: 15%;
@@ -11,14 +16,16 @@
 }
 
 .navbar{
+   max-width: 75%;
     height: 10vh;
     text-align: center;
     justify-content: center;
 }
 section.first{
-    height: 450px;
+    height: 350px;
     background-image: url("code-feast.png");
     background-size: cover;
+    background-position: center;
 
 }
 .main{
@@ -38,7 +45,6 @@ li.nav_el {
     height: 30px;
     background-color: #20242B;
  }
- 
  body{
     margin:0;
  }
@@ -48,14 +54,16 @@ li.nav_el {
     border: 0;
  }
  .second{
+   margin-top: 2rem;
     background-color: transparent;
     border: 0.0625rem solid #dcdee1;
     color: #101215;
     padding: 2rem;
  }
  .bottom{
+   background-color: #dcdee1;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     padding :3em;
  }
  .content{
@@ -68,4 +76,13 @@ li.nav_el {
  }
  .seventy{
     width: 70%;
+ }
+ h4{
+   border-bottom: 2px solid #b9bdc4;
+
+ }
+ .codathon{
+   font-size: 30px ;
+   padding: 5px;
+   margin-left: 15px;
  }
