@@ -6,7 +6,10 @@ body{
     text-align: right;
     display:inline;
 }
-
+.hero{
+   padding-left: 100px;
+   margin-left: 100px;
+}
 .logo{
     width: 25%;
     height: 15%;
@@ -16,10 +19,11 @@ body{
 }
 
 .navbar{
+   display: flex;
    max-width: 75%;
     height: 10vh;
     text-align: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 section.first{
    color: white;
@@ -53,8 +57,10 @@ li.nav_el {
     background-color: #82C823;
     color: #20242b;
     border: 0;
+    font-size: large;
  }
  .second{
+   display: flex;
    margin-top: 2rem;
     background-color: transparent;
     border: 0.0625rem solid #dcdee1;
